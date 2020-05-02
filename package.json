@@ -1,0 +1,20 @@
+{
+  "name": "my-lambda",
+  "version": "1.0.0",
+  "description": "my-lambda",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "ENV=TEST node -e 'require(\"./handler.js\").hello()'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramoch/my-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramoch/my-lambda/issues"
+  },
+  "homepage": "https://github.com/pramoch/my-lambda#readme"
+}

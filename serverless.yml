@@ -27,6 +27,8 @@ provider:
   region: ap-southeast-1
   memorySize: 128 # optional, in MB, default is 1024
   timeout: 3 # The default is 6 seconds.
+  environment:
+    ENV: DEV
 
 # you can overwrite defaults here
 #  stage: dev

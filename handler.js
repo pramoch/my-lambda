@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports.hello = async event => {
-  console.log('Second update');
+  const pkgJson = require('./package.json');
+  console.log('Version = ' + pkgJson.version);
+  console.log('Env = ' + process.env.ENV);
+
   return {
     statusCode: 200,
     body: JSON.stringify(
